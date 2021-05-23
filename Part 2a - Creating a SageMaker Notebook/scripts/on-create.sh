@@ -29,7 +29,7 @@ conda activate "$KERNEL_NAME"
 pip install --quiet ipykernel
 
 # Downloading the requirements.txt script from GitHub
-wget https://raw.githubusercontent.com/dkhundley/terraform-sagemaker-tutorial/main/Part%202a%20-%20Creating%20a%20SageMaker%20Notebook/scripts/On%20Create/requirements.txt
+wget https://raw.githubusercontent.com/dkhundley/terraform-sagemaker-tutorial/main/Part%202a%20-%20Creating%20a%20SageMaker%20Notebook/scripts/requirements.txt
 
 # Installing the Python libraries listed in the requirements.txt script
 pip install --quiet -r requirements.txt

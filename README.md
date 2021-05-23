@@ -3,4 +3,4 @@ This repo contains a series of modules for working with AWS SageMaker using the 
 
 - [Part 1: Terraform Initialization!](https://towardsdatascience.com/terraform-sagemaker-part-1-terraform-initialization-a6470611ea92)
 - [Part 1b: Terraform Initialization with Terraform Cloud!](https://towardsdatascience.com/data-science-quick-tips-012-creating-a-machine-learning-inference-api-with-fastapi-bb6bcd0e6b01)
-- Part 2: SageMaker Notebook Management! *Coming soon!*
+- Part 2: SageMaker Notebook Management! *Coming soon!*tttttt

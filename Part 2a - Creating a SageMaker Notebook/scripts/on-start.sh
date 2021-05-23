@@ -6,7 +6,7 @@ set -e
 ## ----------------------------------------------------------------
 
 # Setting the timeout (in seconds) for how long the SageMaker notebook can run idly before being auto-stopped
-IDLE_TIME=3600
+IDLE_TIME=300
 
 # Getting the autostop.py script from GitHub
 echo "Fetching the autostop script..."

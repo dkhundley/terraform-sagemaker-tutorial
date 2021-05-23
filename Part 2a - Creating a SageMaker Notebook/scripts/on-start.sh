@@ -10,7 +10,7 @@ IDLE_TIME=3600
 
 # Getting the autostop.py script from GitHub
 echo "Fetching the autostop script..."
-wget https://raw.githubusercontent.com/dkhundley/terraform-sagemaker-tutorial/main/Part%202a%20-%20Creating%20a%20SageMaker%20Notebook/scripts/On%20Start/autostop.py
+wget https://raw.githubusercontent.com/dkhundley/terraform-sagemaker-tutorial/main/Part%202a%20-%20Creating%20a%20SageMaker%20Notebook/scripts/autostop.py
 
 # Using crontab to autostop the notebook when idle time is breached
 echo "Starting the SageMaker autostop script in cron."

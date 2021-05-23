@@ -27,6 +27,6 @@ resource "aws_iam_role" "notebook_iam_role" {
 # Attaching the AWS default policy, "AmazonSageMakerFullAccess"
 resource "aws_iam_policy_attachment" "sm_full_access_attach" {
   name = "sm-full-access-attachment"
-  roles = aws_iam_role.notebook_iam_role.name
+  roles = [aws_iam_role.notebook_iam_role.name]
   policy_arn = "arn:aws:iam::aws:policy/AmazonSageMakerFullAccess"
 }

@@ -1,6 +1,6 @@
 # Creating the SageMaker notebook instance
 resource "aws_sagemaker_notebook_instance" "notebook_instance" {
-  name = "ds-quick-tips-instance"
+  name = "titanic-sagemaker-byoc-notebook"
   role_arn = aws_iam_role.notebook_iam_role.arn
   instance_type = "ml.t2.medium"
   lifecycle_config_name = aws_sagemaker_notebook_instance_lifecycle_configuration.notebook_config.name
